@@ -525,7 +525,7 @@ const Logo = () => {
 
   return (
     <div>
-      <h3>your score is : {score}</h3>
+      <h3>Your Score Is : {score}</h3>
       <div className="list">
         {list.map((l, i) => {
           return l.solved ? (
