@@ -500,7 +500,7 @@ const Logo = () => {
       setScore(newScore);
       close();
 
-      if (score == list.length) {
+      if (newScore === list.length) {
         setDone(true);
       }
     }
